@@ -55,6 +55,8 @@ body {
 /*---------Boton---------*/
 .d-grid {
     font-family: "Poppins", sans-serif;
+    position: relative;
+    z-index: 1;
 }
 .d-grid a{
     font-size: 20px;
