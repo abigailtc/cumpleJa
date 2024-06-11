@@ -46,7 +46,7 @@ img {
 @media (max-width: 680px) {
     .nosotros img {
         width: 365px;
-        height: 400px;    }
+        height: 500px;    }
  }
 .nosotros {
     display: flex;
