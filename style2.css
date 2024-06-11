@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: linear-gradient(to right bottom, #eb251a, #f91046, #ff166d, #fd3193, #f24cb7);
+}
+
+.texto {
+    background-color: rgba(255, 255, 255, 0.726);
+    margin: 20px 0 20px 20px;
+    border-radius: 15px;
+}
+
+.texto h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Chewy", system-ui;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 680px) {
+    .texto h1 {
+        font-size: 30px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.nosotros img {
+    width: 500px;
+    height: 700px;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nosotros {
+    position: relative;
+    animation: pulse 1s infinite alternate; 
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1); 
+    }
+    100% {
+        transform: scale(1.05); 
+    }
+}
+
+footer{
+    background-color: #f7f7f79c;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(80, 75, 75);
+    text-align:end;
+    margin:40px 0 0 0;
+    padding:20px 50px 0 0;
+    border-radius: 15px;
+}
