@@ -7,7 +7,6 @@ body {
 /*-------Confetti------*/
 .confee{
     position: absolute;
-    z-index:1;
 }
 
 /*---------- Texto cumpleaños----------*/
