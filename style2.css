@@ -43,7 +43,11 @@ img {
     width: 500px;
     height: 700px;
 }
-
+@media (max-width: 680px) {
+    .nosotros img {
+        width: 365px;
+        height: 400px;    }
+ }
 .nosotros {
     display: flex;
     flex-direction: column;
